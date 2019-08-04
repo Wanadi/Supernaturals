@@ -1,4 +1,4 @@
-package com.example.supernaturals;
+package com.dht.supernaturals;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
