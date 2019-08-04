@@ -1,4 +1,4 @@
-package com.dht.supernaturals.proxy;
+package com.dht.supernaturals.core.proxy;
 
 public class CommonProxy {
 
