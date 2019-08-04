@@ -1,4 +1,7 @@
 package com.dht.supernaturals.common.blocks;
 
-public class SuperBlockNames {
+public class SuperBlockNames
+{
+
+
 }

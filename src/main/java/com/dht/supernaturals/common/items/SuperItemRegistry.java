@@ -1,6 +1,6 @@
-package com.dht.supernaturals.common.blocks;
+package com.dht.supernaturals.common.items;
 
-public class SuperBlockRegistry
+public class SuperItemRegistry
 {
 
 
