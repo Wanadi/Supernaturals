@@ -1,15 +1,14 @@
 package com.dht.supernaturals.util;
 
 import com.dht.supernaturals.common.items.SuperItems;
-import com.drizzs.grassworld.items.GrassWorldItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
-public class ItemGroupGW extends ItemGroup {
+public class SuperItemGroup extends ItemGroup {
 
-    public static final ItemGroupGW instance = new ItemGroupGW(ItemGroup.GROUPS.length, "grassworld");
+    public static final SuperItemGroup instance = new SuperItemGroup(ItemGroup.GROUPS.length, "supernaturals");
 
-    private ItemGroupGW(int index, String label)
+    private SuperItemGroup(int index, String label)
     {
         super(index, label);
     }

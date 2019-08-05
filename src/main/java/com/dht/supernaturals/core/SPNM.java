@@ -1,7 +1,7 @@
 package com.dht.supernaturals.core;
 
-import com.dht.supernaturals.core.proxy.ClientProxy;
-import com.dht.supernaturals.core.proxy.CommonProxy;
+
+import com.dht.supernaturals.common.items.SuperItemRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -29,7 +29,7 @@ public class SPNM {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         MinecraftForge.EVENT_BUS.register(this);
-
+        SuperItemRegistry.init();
 
     }
 
