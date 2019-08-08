@@ -1,6 +1,7 @@
-package com.dht.supernaturals.util.config;
+package com.dht.supernaturals.world;
 
 import com.dht.supernaturals.common.blocks.SuperBlockNames;
+import com.dht.supernaturals.util.config.SuperOreConfig;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;

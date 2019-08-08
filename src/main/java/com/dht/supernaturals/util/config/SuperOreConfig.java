@@ -9,7 +9,7 @@ public class SuperOreConfig
 
     public static void init(ForgeConfigSpec.Builder server, ForgeConfigSpec.Builder client)
     {
-        server.comment("RudeOre Config");
+        server.comment("Supernaturals Ore Config");
 
         Super_Chance = server
                 .comment("Maximum number of ore veins of the Rude Ore that can spawn in one chunk.")
