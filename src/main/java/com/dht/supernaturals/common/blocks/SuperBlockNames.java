@@ -20,6 +20,7 @@ public class SuperBlockNames
     public static Block deadwoodslab;
     public static Block deadwoodchest;
     public static Block deadwoodleaves;
+    public static Block deadwoodstairs;
 
     public static Block mountainashsap;
     public static Block mountainashlog;
@@ -27,6 +28,7 @@ public class SuperBlockNames
     public static Block mountainashchest;
     public static Block mountainashleaves;
     public static Block mountainashslab;
+    public static Block mountainashstairs;
 
     public static Block spookyoaksap;
     public static Block spookyoaklog;
@@ -34,6 +36,7 @@ public class SuperBlockNames
     public static Block spookyoakchest;
     public static Block spookyoakleaves;
     public static Block spookyoakslab;
+    public static Block spookyoakstairs;
 
     public static Block spookywillowsap;
     public static Block spookywillowlog;
@@ -41,5 +44,6 @@ public class SuperBlockNames
     public static Block spookywillowchest;
     public static Block spookywillowleaves;
     public static Block spookywillowslab;
+    public static Block spookywillowstairs;
 
 }
