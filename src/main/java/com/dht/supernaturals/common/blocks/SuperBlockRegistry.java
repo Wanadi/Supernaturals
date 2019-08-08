@@ -1,5 +1,6 @@
 package com.dht.supernaturals.common.blocks;
 
+import com.dht.supernaturals.common.blocks.tree.*;
 import com.dht.supernaturals.util.SuperItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -12,11 +13,11 @@ public class SuperBlockRegistry
 {
     public static void init()
     {
-        SuperBlockNames.darkcherrysap = registerBlock(new Block((Block.Properties.create(Material.ORGANIC, MaterialColor.BROWN).hardnessAndResistance(0.6f, 0).sound(SoundType.PLANT))), "darkcherrysap");
-        SuperBlockNames.deadwoodsap = registerBlock(new Block((Block.Properties.create(Material.ORGANIC, MaterialColor.BROWN).hardnessAndResistance(0.6f, 0).sound(SoundType.PLANT))), "deadwoodsap");
-        SuperBlockNames.spookyoaksap = registerBlock(new Block((Block.Properties.create(Material.ORGANIC, MaterialColor.BROWN).hardnessAndResistance(0.6f, 0).sound(SoundType.PLANT))), "spookyoaksap");
-        SuperBlockNames.spookywillowsap = registerBlock(new Block((Block.Properties.create(Material.ORGANIC, MaterialColor.BROWN).hardnessAndResistance(0.6f, 0).sound(SoundType.PLANT))), "spookywillowsap");
-        SuperBlockNames.mountainashsap = registerBlock(new Block((Block.Properties.create(Material.ORGANIC, MaterialColor.BROWN).hardnessAndResistance(0.6f, 0).sound(SoundType.PLANT))), "mountainashsap");
+        SuperBlockNames.darkcherrysap = registerBlock(new SuperSapling(new DarkCherryTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0).sound(SoundType.PLANT)), "darkcherrysap");
+        SuperBlockNames.deadwoodsap = registerBlock(new SuperSapling(new DeadwoodTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0).sound(SoundType.PLANT)), "deadwoodsap");
+        SuperBlockNames.spookyoaksap = registerBlock(new SuperSapling(new SpookyOakTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0).sound(SoundType.PLANT)), "spookyoaksap");
+        SuperBlockNames.spookywillowsap = registerBlock(new SuperSapling(new SpookyWillowTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0).sound(SoundType.PLANT)), "spookywillowsap");
+        SuperBlockNames.mountainashsap = registerBlock(new SuperSapling(new MountainAshTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0).sound(SoundType.PLANT)), "mountainashsap");
 
         SuperBlockNames.darkcherrylog = registerBlock(new LogBlock(MaterialColor.WHITE_TERRACOTTA, Block.Properties.create(Material.WOOD, MaterialColor.LIGHT_GRAY_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD)), "darkcherrylog");
         SuperBlockNames.deadwoodlog = registerBlock(new LogBlock(MaterialColor.WHITE_TERRACOTTA, Block.Properties.create(Material.WOOD, MaterialColor.LIGHT_GRAY_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD)), "deadwoodlog");

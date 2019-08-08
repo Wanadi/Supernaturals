@@ -46,4 +46,11 @@ public class SuperBlockNames
     public static Block spookywillowslab;
     public static Block spookywillowstairs;
 
+    public static Block spookygrassblock;
+    public static Block spookygrass;
+    public static Block spookyflower;
+
+
+
+
 }
