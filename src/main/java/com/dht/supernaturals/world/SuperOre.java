@@ -22,6 +22,8 @@ public class SuperOre {
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, SuperBlockNames.darkore.getDefaultState(), SuperOreConfig.Super_Chance.get()), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 100)));
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SuperBlockNames.silverore.getDefaultState(), SuperOreConfig.Super_Chance.get()), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 100)));
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SuperBlockNames.whitegoldore.getDefaultState(), SuperOreConfig.Super_Chance.get()), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 100)));
+                biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SuperBlockNames.amethystore.getDefaultState(), SuperOreConfig.Super_Chance.get()), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 100)));
+                biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, SuperBlockNames.manaore.getDefaultState(), SuperOreConfig.Super_Chance.get()), Placement.COUNT_RANGE, new CountRangeConfig(10, 20, 0, 100)));
 
             }
         }

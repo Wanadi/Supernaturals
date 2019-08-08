@@ -55,6 +55,8 @@ public class SuperBlockNames
 
     public static Block whitegoldore;
     public static Block silverore;
+    public static Block amethystore;
+    public static Block manaore;
     public static Block darkore;
     public static Block ghastlyore;
 

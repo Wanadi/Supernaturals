@@ -59,6 +59,8 @@ public class SuperBlockRegistry
         SuperBlockNames.darkore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "darkore");
         SuperBlockNames.silverore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "silverore");
         SuperBlockNames.whitegoldore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "whitegoldore");
+        SuperBlockNames.manaore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "manaore");
+        SuperBlockNames.amethystore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "amethystore");
 
         SuperBlockNames.spookybrick = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookybrick");
         SuperBlockNames.spookystone1 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone1");
