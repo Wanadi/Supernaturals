@@ -1,18 +1,21 @@
-package com.dht.supernaturals.common.items.potions.potions;
+package com.dht.supernaturals.common.items.potions;
 
 import com.dht.supernaturals.common.items.SuperItems;
-import com.dht.supernaturals.common.items.potions.SuperPotion;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.world.World;
 import net.minecraftforge.items.ItemHandlerHelper;
 
-public class PotionDarkBlue extends SuperPotion {
-    public PotionDarkBlue(String name, int hunger, float saturation) {
-        super(name, hunger, saturation);
+public class PotionPink extends Item {
+
+    public PotionPink(Properties properties)
+    {
+        super(properties);
+
     }
 
     @Override

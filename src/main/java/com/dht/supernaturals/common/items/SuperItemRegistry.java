@@ -1,12 +1,9 @@
 package com.dht.supernaturals.common.items;
 
-import com.dht.supernaturals.common.items.potions.SuperPotion;
+import com.dht.supernaturals.common.items.potions.*;
 import com.dht.supernaturals.util.SuperItemGroup;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class SuperItemRegistry {
@@ -24,16 +21,18 @@ public class SuperItemRegistry {
         SuperItems.ash = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"mountainash");
 
         SuperItems.potionempty = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionempty");
-        SuperItems.potionblack = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionblack)),"potionblack");
-        SuperItems.potionred = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionred)),"potionred");
-        SuperItems.potionyellow = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionyellow)),"potionyellow");
-        SuperItems.potionblue = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionblue)),"potionblue");
-        SuperItems.potiondarkblue = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potiondarkblue)),"potiondarkblue");
-        SuperItems.potionorange = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionorange)),"potionorange");
-        SuperItems.potionbrown = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionbrown)),"potionbrown");
-        SuperItems.potionpink = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionpink)),"potionpink");
-        SuperItems.potionpurple = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potionpurple)),"potionpurple");
-        SuperItems.potiongreen = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance).food(SuperPotion.potiongreen)),"potiongreen");
+        SuperItems.potionblack = registerItem(new PotionBlack(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionblack");
+        SuperItems.potionred = registerItem(new PotionRed(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionred");
+        SuperItems.potionyellow = registerItem(new PotionYellow(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionyellow");
+        SuperItems.potionblue = registerItem(new PotionBlue(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionblue");
+        SuperItems.potiondarkblue = registerItem(new PotionDarkBlue(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potiondarkblue");
+        SuperItems.potionorange = registerItem(new PotionOrange(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionorange");
+        SuperItems.potionpink = registerItem(new PotionPink(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionpink");
+        SuperItems.potionpurple = registerItem(new PotionPurple(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionpurple");
+        SuperItems.potiongreen = registerItem(new PotionGreen(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potiongreen");
+        SuperItems.potionbrown = registerItem(new PotionBrown(new Item.Properties().group(SuperItemGroup.instance).maxStackSize(1).food(new Food.Builder().saturation(0).hunger(0).setAlwaysEdible().build())),"potionbrown");
+
+
 
         SuperItems.component1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"druidleaf");
         SuperItems.component2 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"fairywings");
