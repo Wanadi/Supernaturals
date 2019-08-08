@@ -30,8 +30,8 @@ public class SuperItemRegistry {
         SuperItems.potionpurple = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpurple");
         SuperItems.potionpink = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpink");
 
-        SuperItems.component1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component1");
-        SuperItems.component2 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component2");
+        SuperItems.component1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"druidleaf");
+        SuperItems.component2 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"fairywings");
         SuperItems.component3 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component3");
         SuperItems.component4 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component4");
         SuperItems.component5 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component5");
