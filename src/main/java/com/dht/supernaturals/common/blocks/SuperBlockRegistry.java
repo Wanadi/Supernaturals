@@ -54,6 +54,10 @@ public class SuperBlockRegistry
         SuperBlockNames.spookygrass = registerBlock(new SpookyGrass((Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "spookygrass");
         SuperBlockNames.spookygrassblock = registerBlock(new SpookyGrassBlocks((Block.Properties.create(Material.ORGANIC).tickRandomly().hardnessAndResistance(0.6F).sound(SoundType.PLANT))), "enchanted_cyan_grass");
 
+        SuperBlockNames.ghastlyore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "ghastlyore");
+        SuperBlockNames.darkore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "darkore");
+        SuperBlockNames.silverore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "silverore");
+        SuperBlockNames.whitegoldore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "whitegoldore");
 
 
     }

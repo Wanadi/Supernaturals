@@ -5,7 +5,7 @@ import net.minecraft.block.Block;
 public class SuperBlockNames
 {
 
-
+//wood stuff
     public static Block darkcherrysap;
     public static Block darkcherrylog;
     public static Block darkcherryplank;
@@ -46,10 +46,17 @@ public class SuperBlockNames
     public static Block spookywillowslab;
     public static Block spookywillowstairs;
 
+    //stray blocks
     public static Block spookygrassblock;
     public static Block spookygrass;
     public static Block spookyflower;
 
+    //ores
+
+    public static Block whitegoldore;
+    public static Block silverore;
+    public static Block darkore;
+    public static Block ghastlyore;
 
 
 
