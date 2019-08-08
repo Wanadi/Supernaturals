@@ -37,7 +37,7 @@ public class SuperSapling extends SaplingBlock implements IGrowable {
     public void tick(BlockState state, World worldIn, BlockPos pos, Random random)
     {
         super.tick(state, worldIn, pos, random);
-        if (!worldIn.isAreaLoaded(pos, 1)) return; 
+        if (!worldIn.isAreaLoaded(pos, 1)) return;
         if (worldIn.getLight(pos.up()) >= 9 && random.nextInt(7) == 0) {
             this.grow(worldIn, pos, state, random);
         }
