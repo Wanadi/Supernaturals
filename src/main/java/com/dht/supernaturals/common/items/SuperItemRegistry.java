@@ -18,6 +18,18 @@ public class SuperItemRegistry {
         SuperItems.gem1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"amethyst");
         SuperItems.ash = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"mountainash");
 
+        SuperItems.potionempty = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionempty");
+        SuperItems.potionblack = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionblack");
+        SuperItems.potionred = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionred");
+        SuperItems.potionblue = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionblue");
+        SuperItems.potionyellow = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionyellow");
+        SuperItems.potionbrown = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionbrown");
+        SuperItems.potiongreen = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potiongreen");
+        SuperItems.potionorange = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionorange");
+        SuperItems.potiondarkblue = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potiondarkblue");
+        SuperItems.potionpurple = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpurple");
+        SuperItems.potionpink = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpink");
+
 }
 
     public static Item registerItem(Item item, String name)

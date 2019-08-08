@@ -1,6 +1,7 @@
 package com.dht.supernaturals.core;
 
 
+import com.dht.supernaturals.common.blocks.SuperBlockRegistry;
 import com.dht.supernaturals.common.items.SuperItemRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -30,6 +31,7 @@ public class SPNM {
 
         MinecraftForge.EVENT_BUS.register(this);
         SuperItemRegistry.init();
+        SuperBlockRegistry.init();
 
     }
 
