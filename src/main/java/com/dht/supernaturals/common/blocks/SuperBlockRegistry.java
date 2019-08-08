@@ -52,12 +52,25 @@ public class SuperBlockRegistry
         SuperBlockNames.mountainashslab = registerBlock(new SlabBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mountainashslab");
 
         SuperBlockNames.spookygrass = registerBlock(new SpookyGrass((Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "spookygrass");
-        SuperBlockNames.spookygrassblock = registerBlock(new SpookyGrassBlocks((Block.Properties.create(Material.ORGANIC).tickRandomly().hardnessAndResistance(0.6F).sound(SoundType.PLANT))), "enchanted_cyan_grass");
+        SuperBlockNames.spookygrassblock = registerBlock(new SpookyGrassBlocks((Block.Properties.create(Material.ORGANIC).tickRandomly().hardnessAndResistance(0.6F).sound(SoundType.PLANT))), "spookygrassblock");
+        SuperBlockNames.spookyflower = registerBlock(new SpookyGrass((Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "spookyflower");
 
         SuperBlockNames.ghastlyore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "ghastlyore");
         SuperBlockNames.darkore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "darkore");
         SuperBlockNames.silverore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "silverore");
         SuperBlockNames.whitegoldore = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "whitegoldore");
+
+        SuperBlockNames.spookybrick = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookybrick");
+        SuperBlockNames.spookystone1 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone1");
+        SuperBlockNames.spookystone2 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone2");
+        SuperBlockNames.spookystone3 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone3");
+        SuperBlockNames.spookystone4 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone4");
+        SuperBlockNames.spookystone5 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone5");
+        SuperBlockNames.spookystone6 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone6");
+        SuperBlockNames.spookystone7 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone7");
+        SuperBlockNames.spookystone8 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone8");
+        SuperBlockNames.spookystone9 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone9");
+        SuperBlockNames.spookystone10 = registerBlock(new Block(Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.STONE)), "spookystone10");
 
 
     }

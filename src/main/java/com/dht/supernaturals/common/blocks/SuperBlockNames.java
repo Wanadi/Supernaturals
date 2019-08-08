@@ -58,6 +58,33 @@ public class SuperBlockNames
     public static Block darkore;
     public static Block ghastlyore;
 
+    //Structureblock
+
+    public static Block spookybrick;
+    public static Block spookystone1;
+    public static Block spookystone2;
+    public static Block spookystone3;
+    public static Block spookystone4;
+    public static Block spookystone5;
+    public static Block spookystone6;
+    public static Block spookystone7;
+    public static Block spookystone8;
+    public static Block spookystone9;
+    public static Block spookystone10;
+
+    //light blocks
+
+    public static Block spookytorch1;
+    public static Block spookytorch2;
+    public static Block spookytorch3;
+    public static Block spookylantern1;
+    public static Block spookylantern2;
+    public static Block spookylantern3;
+    public static Block spookypumpkin1;
+    public static Block spookypumpkin2;
+    public static Block spookypumpkin3;
+    public static Block spookypumpkin4;
+    public static Block druidfire;
 
 
 }

@@ -14,6 +14,8 @@ public class SuperItems
     public static Item crystal1;
     public static Item ash;
 
+
+//potions
     public static Item potionempty;
     public static Item potiongreen;
     public static Item potionblue;
@@ -25,5 +27,35 @@ public class SuperItems
     public static Item potionorange;
     public static Item potionpurple;
     public static Item potionblack;
+
+    //magical components
+
+    public static Item magicdust1;
+    public static Item magicdust2;
+    public static Item magicdust3;
+    public static Item magicdust4;
+    public static Item magicdust5;
+    public static Item magiccatalyst1;
+    public static Item magiccatalyst2;
+    public static Item magiccatalyst3;
+    public static Item magiccatalyst4;
+    public static Item magiccatalyst5;
+    public static Item component1;
+    public static Item component2;
+    public static Item component3;
+    public static Item component4;
+    public static Item component5;
+    public static Item component6;
+    public static Item component7;
+    public static Item component8;
+    public static Item component9;
+    public static Item component10;
+
+
+
+
+
+
+
 
 }

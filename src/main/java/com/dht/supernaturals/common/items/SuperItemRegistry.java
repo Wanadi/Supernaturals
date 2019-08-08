@@ -30,7 +30,24 @@ public class SuperItemRegistry {
         SuperItems.potionpurple = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpurple");
         SuperItems.potionpink = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"potionpink");
 
-}
+        SuperItems.component1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component1");
+        SuperItems.component2 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component2");
+        SuperItems.component3 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component3");
+        SuperItems.component4 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component4");
+        SuperItems.component5 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component5");
+        SuperItems.component6 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component6");
+        SuperItems.component7 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component7");
+        SuperItems.component8 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component8");
+        SuperItems.component9 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component9");
+        SuperItems.component10 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"component10");
+
+        SuperItems.magicdust1 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"magicdust1");
+        SuperItems.magicdust2 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"magicdust2");
+        SuperItems.magicdust3 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"magicdust3");
+        SuperItems.magicdust4 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"magicdust4");
+        SuperItems.magicdust5 = registerItem(new Item(new Item.Properties().group(SuperItemGroup.instance)),"magicdust5");
+
+    }
 
     public static Item registerItem(Item item, String name)
     {

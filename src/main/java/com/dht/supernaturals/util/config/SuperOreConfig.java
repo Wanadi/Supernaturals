@@ -13,7 +13,7 @@ public class SuperOreConfig
 
         Super_Chance = server
                 .comment("Maximum number of ore veins of the Rude Ore that can spawn in one chunk.")
-                .defineInRange("oregen.Rude_Chance", 20, 1, 1000000);
+                .defineInRange("oregen.Super_Chance", 20, 1, 1000000);
 
         Overworld_Generation = server
                 .comment("Decide if you want Rude Ores to spawn in the overworld")
