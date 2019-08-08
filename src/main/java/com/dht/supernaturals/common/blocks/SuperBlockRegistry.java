@@ -1,5 +1,7 @@
 package com.dht.supernaturals.common.blocks;
 
+import com.dht.supernaturals.common.blocks.blocks.SpookyGrass;
+import com.dht.supernaturals.common.blocks.blocks.SpookyGrassBlocks;
 import com.dht.supernaturals.common.blocks.tree.*;
 import com.dht.supernaturals.util.SuperItemGroup;
 import net.minecraft.block.*;
@@ -48,6 +50,9 @@ public class SuperBlockRegistry
         SuperBlockNames.spookywillowslab = registerBlock(new SlabBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "spookywillowslab");
         SuperBlockNames.spookyoakslab = registerBlock(new SlabBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "spookyoakslab");
         SuperBlockNames.mountainashslab = registerBlock(new SlabBlock(Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD)), "mountainashslab");
+
+        SuperBlockNames.spookygrass = registerBlock(new SpookyGrass((Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "spookygrass");
+        SuperBlockNames.spookygrassblock = registerBlock(new SpookyGrassBlocks((Block.Properties.create(Material.ORGANIC).tickRandomly().hardnessAndResistance(0.6F).sound(SoundType.PLANT))), "enchanted_cyan_grass");
 
 
 
